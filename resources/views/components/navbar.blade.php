@@ -38,8 +38,8 @@
                 <li>
                     <i class="icon-archive"></i> Estoque <div class="bar"></div>
                     <ul>
-                        <li><i class="icon-arrow-right"></i> Entrada de mercadoria</li>
-                        <li><i class="icon-arrow-right"></i> Saida de mercadoria</li>
+                        <li><i class="icon-arrow-right"></i> Entrada de material</li>
+                        <li><i class="icon-arrow-right"></i> Saida de material</li>
                     </ul>
                 </li>
                 <li><i class="icon-file-text"></i> N. Serviço <div class="bar"></div></li>
