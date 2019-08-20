@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-custom_1);
+      }
+
+      .cls-2 {
+        fill: #0049c8;
+      }
+
+      .cls-3 {
+        fill: #186af9;
+      }
+
+      .cls-4 {
+        fill: #2b78fe;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        filter: url(#Caminho_1);
+      }
+
+      .cls-7 {
+        filter: url(#Caminho_2);
+      }
+    </style>
+    <filter id="Caminho_2" x="-2.595" y="141.078" width="506.001" height="340.858" filterUnits="userSpaceOnUse">
+      <feOffset dy="58" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="22" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Caminho_1" x="-43.095" y="40.892" width="587.001" height="421.858" filterUnits="userSpaceOnUse">
+      <feOffset dy="76" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="35.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-custom_1">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="custom_1" data-name="custom – 1" class="cls-1">
+    <rect class="cls-5" width="500" height="500"/>
+    <path id="Caminho_3" data-name="Caminho 3" class="cls-2" d="M167.4,242.892l189.429-110.5,184.572,110.5L356.834,341.25Z" transform="translate(-104 87.713)"/>
+    <g class="cls-7" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <path id="Caminho_2-2" data-name="Caminho 2" class="cls-3" d="M167.4,242.892l189.429-110.5,184.572,110.5L356.834,341.25Z" transform="translate(-104 16.69)"/>
+    </g>
+    <g class="cls-6" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <path id="Caminho_1-2" data-name="Caminho 1" class="cls-4" d="M167.4,242.892l189.429-110.5,184.572,110.5L356.834,341.25Z" transform="translate(-104 -61)"/>
+    </g>
+  </g>
+</svg>
