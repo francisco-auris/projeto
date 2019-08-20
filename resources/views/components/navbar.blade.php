@@ -1,14 +1,14 @@
 <header>
     <div class="top text-secondary">
         <div class="container">
-            <img src="logo.svg" width="42">
+            <img src="{{ asset('img/logo.svg') }}" width="42">
             <desktop>NOME DE EMPRESA LTDA.</desktop>
 
             <div class="box-search float-right">
                 
                 
                 <input type="text" class="input-search" placeholder="Digite para buscar">
-                <i class="material-icons ml-3" style="transform: translateY(5px);">logout</i>
+                <i class="icon-log-out ml-3" style="transform: translateY(5px);"></i>
 
             </div>
             

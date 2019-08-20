@@ -15,16 +15,18 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/system.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/icons.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
        @component('components.navbar')
        @endcomponent
-           
-        <main class="py-4">
-            @yield('content')
-        </main>
-
+        
+        <div class="container">
+            <main class="py-4">
+                @yield('content')
+            </main>
+        </div>
     </div>
 </body>
 </html>
