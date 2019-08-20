@@ -20,3 +20,11 @@ Auth::routes();
 Route::get('/home', function(){
     return view('pages.inicio');
 })->name('home');
+
+Route::prefix('cadastro')->group(function(){
+
+    Route::get('cliente', function(){
+        return view('pages.cadastro-cliente');
+    })->name('cadastro-cliente');
+
+});
